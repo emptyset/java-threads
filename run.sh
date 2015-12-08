@@ -1,3 +1,3 @@
 #!/bin/sh
 
-mvn exec:java -Dexec.mainClass="tech.fay.app.App"
+mvn clean package exec:java -Dexec.mainClass="tech.fay.app.App"
